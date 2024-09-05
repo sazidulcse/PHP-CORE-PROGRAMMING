@@ -1,0 +1,40 @@
+<?php 
+$name='sazidul ';
+$last_name='rahman';
+
+
+//tow variable marge
+echo $name.$last_name;
+
+echo "\n";
+echo 'hello' .$name; //out put : hello sazidul
+
+echo "\n";
+echo 'hello $name'; // output : hello $name
+ 
+echo "\n";
+echo "hello {$name} {$last_name}"; //output : hello sazidul  rahman
+
+
+//constant declear
+define('roll',435372);
+
+//print mathod 01
+echo "my roll of: ".roll;
+
+
+
+//vardump function
+var_dump($first_name,$last_name);
+$first_name = "sazidul";
+$last_name = "Rahman";
+
+
+//3 way data print
+$first_name = "sazidul";
+$last_name = "Rahman";
+echo "my first name is : ".$first_name. "and list name is : ".$last_name."\n";
+echo "my first name is : {$first_name} and last name is {$last_name} \n";
+printf("my first name is %s and my last name is %s \n",$first_name,$last_name);
+
+
